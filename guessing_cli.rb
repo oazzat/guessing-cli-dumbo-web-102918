@@ -9,7 +9,7 @@ def run_guessing_game
   
   if inp == "exit"
     puts "Goodbye!"
-    keepgoing = false
+    break
   end
     
     if inp.to_i == num
