@@ -12,12 +12,12 @@ def run_guessing_game
     break
   else
     inp = inp.to_i
-  end
     
     if inp == num
       puts "You guessed the correct number!"
     else
       puts "The computer guessed #{num}"
     end 
+    end
   end
 end
