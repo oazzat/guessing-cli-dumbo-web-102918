@@ -13,10 +13,10 @@ def run_guessing_game
   else
     inp = inp.to_i
     
-    if inp == rand()
+    if inp == num
       puts "You guessed the correct number!"
     else
-      puts "The computer guessed #{}"
+      puts "The computer guessed #{num}"
     end 
     end
   end
