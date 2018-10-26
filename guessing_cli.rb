@@ -17,7 +17,7 @@ def run_guessing_game
     else
       puts "The computer guessed #{inp.to_i}"
     end 
-    
+  end
     
   end  
 end
