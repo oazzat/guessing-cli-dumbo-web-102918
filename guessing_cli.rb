@@ -10,7 +10,7 @@ def run_guessing_game
     puts "Goodbye!"
     keepgoing = false
   else
-    num = 1+ Random.rand(2)
+    num = 1+ Random.rand(6)
   end
     
     if inp.to_i == num
