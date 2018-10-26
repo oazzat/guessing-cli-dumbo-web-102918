@@ -3,7 +3,7 @@ require "pry"
 def run_guessing_game
   keepgoing = true
   while keepgoing
-  #num =  Random.rand(6)
+  num =  rand()
   puts "Guess a number between 1 and 6."
   inp = gets.chomp
   
@@ -16,7 +16,7 @@ def run_guessing_game
     if inp == rand()
       puts "You guessed the correct number!"
     else
-      puts "The computer guessed #{rand}"
+      puts "The computer guessed #{}"
     end 
     end
   end
