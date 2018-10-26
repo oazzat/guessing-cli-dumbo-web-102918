@@ -11,6 +11,7 @@ def run_guessing_game
     keepgoing = false
   else
     num = 1+ Random.rand(2)
+  end
     
     if inp.to_i == num
       puts "You guessed the correct number!"
@@ -19,5 +20,5 @@ def run_guessing_game
     end 
   end
     
-  end  
+
 end
