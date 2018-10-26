@@ -14,7 +14,7 @@ def run_guessing_game
     inp = inp.to_i
   end
     
-    if inp.to_i == num
+    if inp == num
       puts "You guessed the correct number!"
     else
       puts "The computer guessed #{num}"
