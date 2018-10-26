@@ -10,6 +10,8 @@ def run_guessing_game
   if inp == "exit"
     puts "Goodbye!"
     break
+  else
+    inp = inp.to_i
   end
     
     if inp.to_i == num
